@@ -1,0 +1,47 @@
+#landing {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.signin ,form{
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    height: 150px;
+    max-width: 250px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    align-items: left;
+    
+    margin: 0 auto;
+  }
+#email, #password{
+    text-align: left;
+}
+#email, #password,#button{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+
+
+#button ,a{
+    background-color: rgb(119, 191, 255);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#accounth1{
+    text-align: left;
+    border-bottom: 2px solid black;
+}
